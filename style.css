@@ -12,12 +12,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
     
-    
-    
 }
 main {
     height: 100vh;
     position: relative;
+    
 }
 section#divcell {
     top: 50%;
@@ -35,4 +34,22 @@ section#divcell {
     left: 22px;
     width: 263px;
     height: 470px;
+}
+#redes-sociais {
+    text-align: right;
+}
+#redes-sociais img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.466);
+    box-sizing: border-box;
+    
+}
+#redes-sociais img:hover {
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    transform: translate(-3px, -3px);
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.397);
+    transition: transform .3s, border .3s;
 }
